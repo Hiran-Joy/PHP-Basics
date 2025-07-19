@@ -25,7 +25,7 @@ if(isset($_POST['btn_save']))
     ?>
     <script>
     alert("Inserted");
-    window.location="Place.php";
+    window.location="Place2.php";
     </script>
     <?php
    }
@@ -38,7 +38,7 @@ else
      ?>
     <script>
     alert("Updated");
-    window.location="Place.php";
+    window.location="Place2.php";
     </script>
     <?php
    }
@@ -137,8 +137,8 @@ $district_idd=$data['district_id'];
     <td><?php echo $i;?></td>
     <td><?php echo $data['district_name']?></td>
     <td><?php echo $data['place_name']?></td>
-    <td><a href="Place.php?did=<?php echo $data['place_id']?>">Delete</a>
-        <a href="Place.php?eid=<?php echo $data['place_id']?>">Edit</a></td>
+    <td><a href="Place2.php?did=<?php echo $data['place_id']?>">Delete</a>
+        <a href="Place2.php?eid=<?php echo $data['place_id']?>">Edit</a></td>
 
     
   </tr>
