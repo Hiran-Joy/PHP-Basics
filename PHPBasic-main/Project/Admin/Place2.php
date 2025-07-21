@@ -86,10 +86,10 @@ $district_idd=$data['district_id'];
             ?>
             
             
-            <option <?php // whats the need of putting the code inside 'option tag'.
+            <option <?php 
              if($district_idd==$dis_id)
             {
-                echo "selected"; // why are we using this(the sel is only working if we use this).
+                echo "selected"; 
             }
             ?>
             value="<?php echo $dis_id  ?>">
